@@ -5,7 +5,7 @@
         "TargetService": {
           "Type": "AWS::ECS::Service",
           "Properties": {
-            "TaskDefinition": "Task-app-python",
+            "TaskDefinition": "<TASK_DEFINITION>",
             "LoadBalancerInfo": {
               "ContainerName": "Container-app-python",
               "ContainerPort": 5000
